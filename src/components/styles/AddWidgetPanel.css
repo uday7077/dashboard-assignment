@@ -1,0 +1,65 @@
+.widget-panel {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.widget-panel h3 {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.button-group {
+  margin-bottom: 16px;
+}
+
+.button-group button {
+  margin-right: 10px;
+  padding: 8px 14px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button-group .active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.checkbox-group {
+  margin-bottom: 16px;
+}
+
+.checkbox-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.panel-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.panel-actions button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.panel-actions button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.panel-actions button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
