@@ -14,16 +14,16 @@ function App() {
     <div className="app-container">
       <h1 className="app-title">CNAAP Dashboard</h1>
 
-      {/* Add Widget Button */}
+      
       <AddWidgetButton onClick={() => setShowPanel(true)} />
 
-      {/* Category-based widget selection panel */}
+      
       {showPanel && <AddWidgetPanel onClose={() => setShowPanel(false)} />}
 
-      {/* Manual Dashboard Creation Form */}
+      
       <AddDashboardForm />
 
-      {/* Render All Dashboards */}
+      
       <DashboardList />
     </div>
   );
